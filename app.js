@@ -29,3 +29,23 @@ const timer = setInterval(()=>{
         clearInterval(timer);
     }
 },1000);
+
+var divsImpar = document.getElementsByClassName('impar');
+var mostrar = true;
+
+function alternarImagen() {
+  for (var i = 0; i < divsImpar.length; i++) {
+    var imagen = divsImpar[i].querySelector("img");
+    
+    if (mostrar) {
+      imagen.src = "assets/casaPajaros.png" ; 
+    } else {
+        imagen.src = "assets/aveAzul.png";
+    }
+  }
+ 
+  mostrar = !mostrar; 
+}
+
+setInterval(alternarImagen, 1000);
+
