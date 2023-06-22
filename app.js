@@ -31,11 +31,11 @@ const timer = setInterval(()=>{
 },1000);
 
 const divsImpar = document.getElementsByClassName('impar');
-const mostrar = true;
+let mostrar = true;
 
 function alternarImagen() {
   for (var i = 0; i < divsImpar.length; i++) {
-    const imagen = divsImpar[i].querySelector("img");
+    let imagen = divsImpar[i].querySelector("img");
     
     if (mostrar) {
       imagen.src = "assets/casaPajaros.png" ; 
