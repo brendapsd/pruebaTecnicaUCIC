@@ -28,6 +28,7 @@ body{
 }
 .casas{
     width: 33.33%;
+    margin-bottom: -40px;
 }
 .casas img{
     width: 100%;
