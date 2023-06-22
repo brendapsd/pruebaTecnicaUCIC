@@ -30,12 +30,12 @@ const timer = setInterval(()=>{
     }
 },1000);
 
-var divsImpar = document.getElementsByClassName('impar');
-var mostrar = true;
+const divsImpar = document.getElementsByClassName('impar');
+const mostrar = true;
 
 function alternarImagen() {
   for (var i = 0; i < divsImpar.length; i++) {
-    var imagen = divsImpar[i].querySelector("img");
+    const imagen = divsImpar[i].querySelector("img");
     
     if (mostrar) {
       imagen.src = "assets/casaPajaros.png" ; 
