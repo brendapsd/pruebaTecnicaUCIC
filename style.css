@@ -1,0 +1,34 @@
+body{
+    background-image: url("assets/cielo.jpg");
+}
+.contenedor{
+    max-width: 768px;
+    margin: 0 auto;
+}
+.contenedor-puntaje{
+    display: flex;
+    justify-content: space-evenly;
+}
+.puntaje-aves, .contenedor-tiempo{
+    font-weight: 600;
+    text-align: center;
+}
+.titulo-ave, .titulo-tiempo{
+    font-size: 18px;
+}
+.puntaje-ave, .tiempo-restante{
+    font-size: 24px;
+}
+.contenedor-casas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 50px 0;
+}
+.casas{
+    width: 33.33%;
+}
+.casas img{
+    width: 100%;
+}
